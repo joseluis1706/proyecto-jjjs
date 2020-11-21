@@ -1,6 +1,59 @@
-/* Objetivos del que va a reliazar las Moficaciones de CSS
-  como minimo debe de relizar 10 modificacionees en la rama 
-  ya previamente armada los valores permitidos a modificar 
-  son lo que van a usar los que van  a trabajar en la plantilla 
-  de html ...  */
- 
+/*Hoja de Estilos*/
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(10, 131, 105);
+  text-align: center;
+  color: white;
+}
+h1{
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0px 10px;
+  transition: 0.5s;
+}
+a:hover{
+  color: white;
+}
+h2{
+  margin-bottom: 10px;
+}
+section{
+  border: 2px dashed black;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 20px auto;
+  width: 410px;
+}
+#jaime{
+  background-color: rgb(238, 73, 23);
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(11, 88, 151);
+  padding: 10px;
+}
+footer div{
+  margin-top: 10px;
+}
+#jaime, #jesi, #santi, #joseluis{
+  position: relative;
+}
+img{
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  top: 0;
+  right: 0;
+}
