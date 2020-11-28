@@ -51,7 +51,7 @@ footer{
 footer div{
   margin-top: 10px;
 }
-#jaime, #jesi, #santi, #joseluis, #mireya{
+#jaime, #jesi, #santi, #joseluis, #mireya, #andres{
   position: relative;
 }
 img{
@@ -77,4 +77,8 @@ img{
 
 #mireya{
   background-color: rgb(185, 153, 11);
+} 
+
+#andres{
+  background-color: rgb(13, 226, 84);
 } 
