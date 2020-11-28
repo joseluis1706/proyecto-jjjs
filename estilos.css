@@ -16,6 +16,11 @@ header{
   text-align: center;
   color: white;
 }
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 h1{
   margin-bottom: 10px;
 }
@@ -36,8 +41,10 @@ section{
   border: 2px dashed black;
   padding: 10px;
   padding-left: 30px;
-  margin: 20px auto;
+  margin: 10px;
   width: 410px;
+  display: flex;
+  flex-direction: column;
 }
 #jaime{
   background-color: rgb(238, 73, 23);
@@ -53,15 +60,20 @@ footer div{
 }
 #jaime, #jesi, #santi, #joseluis, #mireya, #andres{
   position: relative;
+  box-shadow: 5px 5px 20px black;
 }
 img{
-  position: absolute;
+  /*position: absolute;*/
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 130px;
+  height: 130px;
   background-color: white;
   top: 0;
   right: 0;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 5px 5px 20px rgba(0,0,0,1);
 }
 
 #santi{
@@ -81,5 +93,4 @@ img{
 
 #andres{
   background-color: rgb(13, 226, 84);
-  box-shadow: 10px 10px 10px black;
 } 
