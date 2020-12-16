@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  /* Objetivos del que va a reliazar las Moficaciones de CSS
   como minimo debe de relizar 10 modificacionees en la rama 
   ya previamente armada los valores permitidos a modificar 
@@ -6,8 +6,7 @@
   de html ...  */
 
 /*Hoja de Estilos*/
-=======
->>>>>>> jesi
+
 *{
   margin: 0px;
   padding: 0px;
@@ -166,7 +165,6 @@ article .content input:hover, nav a:hover{
 }
 .servicios .icono{
   height: 80px;
-<<<<<<< HEAD
   background-color: white;
   top: 0;
   right: 0;
@@ -194,7 +192,7 @@ article .content input:hover, nav a:hover{
   background-color: rgb(13, 226, 84);
 } 
 
-=======
+
   width: 80px;
   background-color: rgb(6, 103, 84);
   border-radius: 50%;
@@ -219,4 +217,3 @@ footer{
 footer div{
   text-align: center;
 }
->>>>>>> jesi
